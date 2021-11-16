@@ -1,0 +1,39 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark" aria-label="Second navbar example">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">RestoApp</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExample02">
+      <ul class="navbar-nav me-auto">
+       
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="add">Add-Resto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="update">Update-Resto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="list">List-Resto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="login">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="register">Register</a>
+        </li>
+      </ul>
+     
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="container">
+  <router-outlet></router-outlet>
+<div class="footer">
+  <p>Copyright by &copy; RestaurantApp</p>
+</div>
+</div>

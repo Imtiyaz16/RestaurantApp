@@ -1,0 +1,8 @@
+.pointer{
+    cursor: pointer;
+}
+.pointer:hover{
+    cursor: pointer;
+    text-shadow: 0.3px 1px 1px;
+
+}
